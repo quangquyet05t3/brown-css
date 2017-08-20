@@ -1,8 +1,10 @@
 <!DOCTYPE HTML SYSTEM>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Brown Shop</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
 </head>
 
 <body>
@@ -32,31 +34,27 @@
                 <div class="block-top">
                     <ul>
                         <li>
-                            <div class="icon">
+                            <span class="ship icon"></span>
+                            <h4>Ship hàng toàn quốc</h4>
 
-                            </div>
-                            <a>Ship hàng toàn quốc</a>
                         </li>
                         <li>
-                            <div class="icon">
+                            <span class="pay icon"></span>
+                            <h4>Thanh toán linh hoạt</h4>
 
-                            </div>
-                            <a>Thanh toán linh hoạt</a>
                         </li>
                         <li>
-                            <div class="icon">
-
-                            </div>
-                            <a>Trả hàng trong 10 ngày</a>
+                            <span class="refund icon"></span>
+                            <h4>Trả hàng trong 10 ngày</h4>
                         </li>
                     </ul>
                 </div>
                 <div class="block-bottom">
                     <input type="text">
-                    <button class="search">s</button>
+                    <button class="search"></button>
                     <div class="cart">
                         <div class="cart-icon">
-                            0 sp - 0đ
+                            <span>0 sp - 0đ</span>
                         </div>
                     </div>
                 </div>
@@ -67,22 +65,31 @@
         <div class="nav">
             <div class="nav-left">
                 <div class="list-product">
-                    Danh mục sản phẩm
+                    <span class="icon"></span>
+                    <h4>Danh mục sản phẩm</h4>
                 </div>
             </div>
             <div class="nav-main">
                 <ul>
                     <li>
-                        <a>Trang chủ</a>
+                        <a href="#">Trang chủ</a>
+                    </li>
+                    <li class="show-menu">
+                        <a href="#">Sản phẩm</a>
+                        <div class="menu">
+                            <a href="#">Đầm len</a>
+                            <a href="#">Áo len</a>
+                            <a href="#">Áo khoác len</a>
+                            <a href="#">Sét bộ</a>
+                            <a href="#">Đầm hoa</a>
+                            <a href="#">Áo sơ mi</a>
+                        </div>
                     </li>
                     <li>
-                        <a>Sản pmẩm</a>
+                        <a href="#">Giới thiệu</a>
                     </li>
                     <li>
-                        <a>Giới thiệu</a>
-                    </li>
-                    <li>
-                        <a>Liên hệ</a>
+                        <a href="#">Liên hệ</a>
                     </li>
                 </ul>
             </div>
@@ -92,27 +99,27 @@
         <div class="slide-left">
             <ul>
                 <li>
-                    <a>Đầm len</a>
+                    <a class="a1">Đầm len</a>
                 </li>
 
                 <li>
-                    <a>Áo len</a>
+                    <a class="a2">Áo len</a>
                 </li>
 
                 <li>
-                    <a>Áo khoác len</a>
+                    <a class="a3">Áo khoác len</a>
                 </li>
 
                 <li>
-                    <a>Sét bộ</a>
+                    <a class="a4">Sét bộ</a>
                 </li>
 
                 <li>
-                    <a>Đầm hoa</a>
+                    <a class="a5">Đầm hoa</a>
                 </li>
 
                 <li>
-                    <a>Áo sơ mi</a>
+                    <a class="a6">Áo sơ mi</a>
                 </li>
             </ul>
         </div>
@@ -122,12 +129,12 @@
     </div>
 
     <div class="product">
-        <h3>Sản phẩm</h3>
+        <div class="bg-title"><h3>Sản phẩm</h3></div>
         <div class="product-tool">
             <div class="tool-left">
                 <div class="icon1">
                 </div>
-                <div class="icon1">
+                <div class="icon2">
                 </div>
                 <span>Sản phầm/trang</span>
                 <select>
@@ -143,133 +150,158 @@
         </div>
         <div class="list-item">
             <div class="item">
-                <div class="img-box">
+                <div class="img-box" style="background-image: url(images/icon/product1.jpg);">
                 </div>
                 <h4>Áo khoác len</h4>
-                <a href="#">Xem nhanh</a>
-                <a href="#">Chi tiết</a>
+                <div class="button">
+                    <a href="#">Xem nhanh</a>
+                    <a href="#">Chi tiết</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-box" style="background-image: url(images/icon/product2.jpg);">
+                </div>
+                <h4>Áo khoác len</h4>
+                <div class="button">
+                    <a href="#">Xem nhanh</a>
+                    <a href="#">Chi tiết</a>
+                </div>
             </div>
             <div class="item">
                 <div class="img-box">
                 </div>
                 <h4>Áo khoác len</h4>
-                <a href="#">Xem nhanh</a>
-                <a href="#">Chi tiết</a>
+                <div class="button">
+                    <a href="#">Xem nhanh</a>
+                    <a href="#">Chi tiết</a>
+                </div>
             </div>
             <div class="item">
                 <div class="img-box">
                 </div>
                 <h4>Áo khoác len</h4>
-                <a href="#">Xem nhanh</a>
-                <a href="#">Chi tiết</a>
+                <div class="button">
+                    <a href="#">Xem nhanh</a>
+                    <a href="#">Chi tiết</a>
+                </div>
             </div>
             <div class="item">
                 <div class="img-box">
                 </div>
                 <h4>Áo khoác len</h4>
-                <a href="#">Xem nhanh</a>
-                <a href="#">Chi tiết</a>
+                <div class="button">
+                    <a href="#">Xem nhanh</a>
+                    <a href="#">Chi tiết</a>
+                </div>
             </div>
             <div class="item">
                 <div class="img-box">
                 </div>
                 <h4>Áo khoác len</h4>
-                <a href="#">Xem nhanh</a>
-                <a href="#">Chi tiết</a>
+                <div class="button">
+                    <a href="#">Xem nhanh</a>
+                    <a href="#">Chi tiết</a>
+                </div>
             </div>
             <div class="item">
                 <div class="img-box">
                 </div>
                 <h4>Áo khoác len</h4>
-                <a href="#">Xem nhanh</a>
-                <a href="#">Chi tiết</a>
+                <div class="button">
+                    <a href="#">Xem nhanh</a>
+                    <a href="#">Chi tiết</a>
+                </div>
             </div>
             <div class="item">
                 <div class="img-box">
                 </div>
                 <h4>Áo khoác len</h4>
-                <a href="#">Xem nhanh</a>
-                <a href="#">Chi tiết</a>
+                <div class="button">
+                    <a href="#">Xem nhanh</a>
+                    <a href="#">Chi tiết</a>
+                </div>
             </div>
             <div class="item">
                 <div class="img-box">
                 </div>
                 <h4>Áo khoác len</h4>
-                <a href="#">Xem nhanh</a>
-                <a href="#">Chi tiết</a>
+                <div class="button">
+                    <a href="#">Xem nhanh</a>
+                    <a href="#">Chi tiết</a>
+                </div>
             </div>
             <div class="item">
                 <div class="img-box">
                 </div>
                 <h4>Áo khoác len</h4>
-                <a href="#">Xem nhanh</a>
-                <a href="#">Chi tiết</a>
+                <div class="button">
+                    <a href="#">Xem nhanh</a>
+                    <a href="#">Chi tiết</a>
+                </div>
             </div>
             <div class="item">
                 <div class="img-box">
                 </div>
                 <h4>Áo khoác len</h4>
-                <a href="#">Xem nhanh</a>
-                <a href="#">Chi tiết</a>
+                <div class="button">
+                    <a href="#">Xem nhanh</a>
+                    <a href="#">Chi tiết</a>
+                </div>
             </div>
             <div class="item">
                 <div class="img-box">
                 </div>
                 <h4>Áo khoác len</h4>
-                <a href="#">Xem nhanh</a>
-                <a href="#">Chi tiết</a>
-            </div>
-            <div class="item">
-                <div class="img-box">
+                <div class="button">
+                    <a href="#">Xem nhanh</a>
+                    <a href="#">Chi tiết</a>
                 </div>
-                <h4>Áo khoác len</h4>
-                <a href="#">Xem nhanh</a>
-                <a href="#">Chi tiết</a>
             </div>
         </div>
         <div class="product-paging">
-            Trang
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
+            <div>
+                <a class="active" href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+            </div>
         </div>
     </div>
-    <div class="adv">
-        <div class="hm">
+    <div class="bg-footer-top">
+        <div>
+            <h3>ZALO: 0938.707014</h3>
+            <span class="facebook icon"></span>
+            <span class="zalo icon"></span>
+            <span class="phone icon"></span>
+            <a href="#">Liên hệ với chúng tôi</a>
         </div>
-        <div class="zara">
-        </div>
-        <div class="f21">
-        </div>
-        <div class="old-navy">
-        </div>
-        <div class="old-navy">
-        </div>
+
     </div>
     <div class="bg-footer">
         <div class="footer">
             <div class="info">
-                <div class="logo">
+                <div class="info-content">
+                    <div class="logo">
+                    </div>
+                    <h4>Brown shop chuyên cung cấp sỉ các mặt hàng VNXK</h4>
+                    <p>142/17 Ngô Tất Tố P22 Quận Bình Thạnh TP Hồ Chí Minh</p>
+                    <p>Email: brownvnxk@gmail.com</p>
+                    <p>Zalo: 0938.707014</p>
                 </div>
-                <h4>Brown shop chuyên cung cấp sỉ các mặt hàng VNXK</h4>
-                <p>142/17 Ngô Tất Tố P22 Quận Bình Thạnh TP Hồ Chí Minh</p>
-                <p>brownvnxk@gmail.com</p>
-                <p>Zalo: 0938.707014</p>
             </div>
             <div class="intro">
                 <h4>Giới thiệu</h4>
-                <a href="#">Về chúng tôi</a>
-                <a href="#">Hỏi đáp</a>
-                <a href="#">Quy chế hoạt động</a>
-                <a href="#">Tuyển dụng</a>
-                <a href="#">Bảo mật thông tin</a>
+                <div><span>>></span><a href="#">Về chúng tôi</a></div>
+                <div><span>>></span><a href="#">Hỏi đáp</a></div>
+                <div><span>>></span><a href="#">Quy chế hoạt động</a></div>
+                <div><span>>></span><a href="#">Tuyển dụng</a></div>
+                <div><span>>></span><a href="#">Bảo mật thông tin</a></div>
             </div>
             <div class="help">
                 <h4>Trợ giúp</h4>
-                <a href="#">Hướng dẫn thanh toán</a>
-                <a href="#">Quy định đổi trả hoàn tiền</a>
-                <a href="#">Hướng dẫn mua hàng</a>
-                <a href="#">Quy định thảo luận</a>
+                <div><span>>></span><a href="#">Hướng dẫn thanh toán</a></div>
+                <div><span>>></span><a href="#">Quy định đổi trả hoàn tiền</a></div>
+                <div><span>>></span><a href="#">Hướng dẫn mua hàng</a></div>
+                <div><span>>></span><a href="#">Quy định thảo luận</a></div>
             </div>
             <div class="fb">
                 <h4>Facebook</h4>

@@ -9,7 +9,7 @@ a,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, tbody, thead, tr, th, td, footer, header,
+table, tbody, thead, tr, th, td, footer, header, select,
 menu {
     margin: 0;
     padding: 0;
@@ -24,7 +24,7 @@ footer, header, menu, nav, section {
 }
 body {
     font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1;
 }
 ol, ul {
