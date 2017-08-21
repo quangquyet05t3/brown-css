@@ -142,6 +142,11 @@
     background-color: #ff5400;
 }
 
+.nav {
+    height: 53px;
+    background-color: #ff5400;
+}
+
 .nav-left {
     width: 274px;
     float: left;
@@ -168,6 +173,7 @@
     text-transform: uppercase;
     font-weight: bold;
     padding: 4px;
+    width: 150px;
 }
 
 .nav-main {
@@ -194,6 +200,7 @@
     display: block;
     padding-top: 22px;
     padding-bottom: 18px;
+    width: 100px;
 }
 
 .nav-main a:hover {
@@ -206,7 +213,7 @@
 
 .menu {
     position: absolute;
-    min-width: 200px;
+    width: 300px;
     margin-left: -37px;
     display: none;
     z-index: 1;
@@ -427,12 +434,17 @@
 
 .bg-footer-top {
     background-color: #404040;
-    padding: 10px 0 50px 0;
+
 }
+
+
 
 .bg-footer-top div{
     width: 1150px;
     margin: 0 auto;
+    padding: 10px 0 50px 0;
+    background-color: #404040;
+    height: 9px;
 }
 
 .bg-footer-top h3 {
@@ -485,6 +497,7 @@
     padding: 10px 15px;
     text-transform: uppercase;
     text-decoration: none;
+    width: 155px;
 }
 
 .bg-footer-top a:hover {
@@ -502,6 +515,7 @@
 .footer {
     width: 1150px;
     height: 280px;
+    background-color: #333333;
     margin: 0 auto;
     clear: both;
 }
