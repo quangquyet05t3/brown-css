@@ -515,6 +515,7 @@
 
 .bg-footer {
     background-color: #333333;
+    min-width: 1150px
 }
 
 .footer {
@@ -522,7 +523,6 @@
     height: 280px;
     background-color: #333333;
     margin: 0 auto;
-    clear: both;
 }
 
 
