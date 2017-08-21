@@ -544,6 +544,13 @@
     color: #ffffff;
     line-height: 26px;
 }
+.info-content a {
+    text-decoration: none;
+    color: #b8e58d;
+}
+.info-content a:hover {
+    color: #ee6005;
+}
 .intro, .help, .fb{
 
     float: left;

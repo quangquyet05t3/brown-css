@@ -1,0 +1,34 @@
+.detail {
+
+    width: 1150px;
+    margin: 0 auto;
+    clear: both;
+    padding: 20px 0 60px;
+}
+
+
+.img-bg {
+    width: 382px;
+    height: 384px;
+    background-color: red;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+
+.detail-content{
+    width: 494px;
+    height: 384px;
+    background-color: grey;
+    display: inline-block;
+    margin-right: -4px;
+
+}
+
+.menu-right {
+    width: 274px;
+    height: 384px;
+    background-color: #04adf0;
+    display: inline-block;
+    margin-right: -4px;
+}
