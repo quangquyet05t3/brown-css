@@ -46,7 +46,6 @@
 }
 
 .header-left .logo {
-
     width: 228px;
     height: 97px;
     background-image: url("../images/icon/logo.png");
@@ -56,19 +55,24 @@
     float: right;
     padding-top: 30px;
 }
+.block-top ul {
+    list-style-type: none;
+}
 
 .block-top li {
-    display: inline-block;
     margin-right: 50px;
     height: 20px;
+    float: left;
 }
 
 .block-top h4 {
+    clear: both;
     text-transform: uppercase;
     color: #aaaac2;
     height: 20px;
     display: inline-block;
     padding: 5px;
+    width: 177px;
 }
 
 .block-top li:last-child {
