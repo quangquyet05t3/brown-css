@@ -188,8 +188,16 @@
 
 }
 
+.nav-main li:hover {
+    background-color: #f45203;
+    height: 53px;
+    border-bottom: solid 4px #70ba28;
+}
+
 .nav-main .active {
-    background-color: #70ba28;
+    background-color: #f45203;
+    height: 53px;
+    border-bottom: solid 4px #70ba28;
 }
 
 .nav-main a {
