@@ -212,7 +212,6 @@
 
 .menu {
     position: absolute;
-    width: 300px;
     margin-left: -37px;
     display: none;
     z-index: 1;
@@ -227,6 +226,7 @@
 
 .menu a {
     display: block;
+    min-width: 200px;
     border-left: solid 1px #dddddd;
     border-right: solid 1px #dddddd;
     border-bottom: solid 1px #dddddd;
