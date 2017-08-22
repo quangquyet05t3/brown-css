@@ -4,31 +4,54 @@
     margin: 0 auto;
     clear: both;
     padding: 20px 0 60px;
+    overflow: auto;
 }
 
 
 .img-bg {
     width: 382px;
-    height: 384px;
-    background-color: red;
-    display: inline-block;
-    margin-right: -4px;
+    background-color: #eeeeee;
+    float: left;
 }
 
+.img-box {
+    margin: 5px;
+    width: 372px;
+    height: 300px;
+    background-size: 372px 300px;
 
+}
+
+.img-nav {
+    padding: 17px 0 8px 5px;
+}
+
+.img-nav li {
+    display: inline-block;
+    border: solid 1px #d6d6d2;
+}
+
+.img-nav .active {
+    border: solid 1px #ff0000;
+}
+.img-nav li:hover {
+    border: solid 1px #ff0000;
+}
+
+.img-nav .small-img {
+    width: 52px;
+    height: 50px;
+    background-size: 52px 50px;
+}
 .detail-content{
     width: 494px;
-    height: 384px;
     background-color: grey;
-    display: inline-block;
-    margin-right: -4px;
+    float: left;
 
 }
 
 .menu-right {
     width: 274px;
-    height: 384px;
     background-color: #04adf0;
-    display: inline-block;
-    margin-right: -4px;
+    float: left;
 }

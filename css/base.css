@@ -529,7 +529,8 @@
 
 .info {
     width: 293px;
-    background-color: #70ba28;
+    background-image: url("../images/icon/bg-info.png");
+    background-repeat: repeat-x;
     float: left;
     margin-top: -80px;
 }
@@ -537,7 +538,7 @@
 .info .logo {
     width: 264px;
     height: 117px;
-    background-image: url("../images/icon/logo-footer.jpg");
+    background-image: url("../images/icon/logo-footer.png");
 }
 .info .info-content {
     margin: 26px 16px;
