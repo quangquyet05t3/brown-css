@@ -6,6 +6,69 @@
         margin: 0 auto;
     }
 
+    .m-menu {
+        display: block;
+        height: 53px;
+        width: 100%;
+        background-color: #ff5400;
+        padding-top: 17px;
+        padding-bottom: 18px;
+        padding-left: 15px;
+    }
+    .m-menu .icon {
+        width: 23px;
+        height: 20px;
+        background-image: url("../images/icon/list.png");
+        float: left;
+        padding-bottom: 36px;
+        background-repeat: no-repeat;
+    }
+    .m-menu h4 {
+        float: left;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        width: 80%;
+        text-align: center;
+    }
+
+
+    .d-menu {
+        position: absolute;
+        margin-left: -15px;
+        margin-top: 36px;
+        width: 100%;
+        display: none;
+        z-index: 1;
+        -webkit-box-shadow: 0px 10px 41px -7px rgba(163,149,142,1);
+        -moz-box-shadow: 0px 10px 41px -7px rgba(163,149,142,1);
+        box-shadow: 0px 10px 41px -7px rgba(163,149,142,1);
+    }
+
+
+    .d-menu a {
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-left: solid 1px #a9a9a9;
+        border-right: solid 1px #a9a9a9;
+        border-bottom: solid 1px #a9a9a9;
+        text-decoration: none;
+        padding: 16px 0;
+        background-color: #404040;
+        color: #70ba28;
+        text-align: center;
+    }
+
+    .d-menu a:hover {
+        background-color: #70ba28;
+        color: #ffffff;
+    }
+
+    .show-m-menu:hover .d-menu{
+        display: block;
+    }
+
     .bg-top {
         width: 100%;
     }
@@ -38,5 +101,37 @@
 
     .header-right {
         display: none;
+    }
+
+    .nav-main {
+        display: none;
+    }
+
+    .bg-nav {
+        display: none;
+    }
+    .slide-left {
+        display: none;
+        width: 100%;
+    }
+    .slide-main {
+        width: 100%;
+    }
+
+
+    .bg-footer-top, .bg-footer {
+        display: none;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer , .intro, .help, .fb{
+        width: 100%;
     }
 }

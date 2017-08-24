@@ -4,6 +4,10 @@
     margin: 0 auto;
 }
 
+.m-menu {
+    display: none;
+}
+
 .bg-top {
     height: 30px;
     background-color: #333333;
