@@ -51,6 +51,10 @@
     background-image: url("../images/icon/logo.png");
 }
 
+.m-cart-icon {
+    display: none;
+}
+
 .header-right {
     float: right;
     padding-top: 30px;

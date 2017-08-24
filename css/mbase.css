@@ -1,0 +1,42 @@
+@media only screen and (max-width: 800px) {
+
+    .top, .header, .nav, .bg-slide, .product, .adv, .footer, .footer-top {
+        clear: both;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .bg-top {
+        width: 100%;
+    }
+    .top{
+        width: 100%;
+
+    }
+    .top-left {
+        width: 100%;
+    }
+    .top-right{
+        display: none;
+    }
+
+    .header-left {
+        width: 100%;
+    }
+
+    .header-left .logo {
+        max-width: 500px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+    .m-cart-icon {
+        margin: 10px auto 30px;
+        display: block;
+        max-width: 100px;
+        text-align: center;
+    }
+
+    .header-right {
+        display: none;
+    }
+}
