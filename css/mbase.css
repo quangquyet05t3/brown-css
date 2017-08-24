@@ -74,21 +74,16 @@
     }
 
     .bg-top {
-        width: 100%;
-    }
-    .top{
-        width: 100%;
-
-    }
-    .top-left {
-        width: 100%;
-    }
-    .top-right{
         display: none;
+    }
+
+    .header {
+        height: auto;
     }
 
     .header-left {
         width: 100%;
+        padding-top: 5px;
     }
 
     .header-left .logo {
@@ -97,7 +92,7 @@
         margin: 0 auto;
     }
     .m-cart-icon {
-        margin: 10px auto 30px;
+        margin: 5px auto;
         display: block;
         max-width: 100px;
         text-align: center;
@@ -137,12 +132,14 @@
     }
 
     .item .img-box{
-        width: 100%;
+        width: 99%;
+        margin: 2px auto;
         height: 266px;
         border: solid 1px #f0edf4;
         background-image: url("../images/icon/product1.jpg");
+        background-position: center center;
         background-repeat: no-repeat;
-        background-size: 100% 266px;
+        background-size: 266px 266px;
     }
 
     .item .button {
