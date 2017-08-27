@@ -96,6 +96,10 @@
     float: left;
 }
 
+.policy-guide {
+    margin-bottom: 15px;
+}
+
 .policy-guide .policy-guide-header {
     background-color: #333333;
     padding: 12px;
@@ -124,5 +128,24 @@
     text-align: center;
     margin-right: 5px;
     margin-top: 6px;
+}
+
+.policy-guide-content p {
+    line-height: 14px;
+    margin-bottom: 14px;
+}
+
+.policy-guide-content .number{
+    font-weight: bold;
+}
+
+.policy-guide-content .link{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.policy-guide-content .phone{
+    font-weight: bold;
+    color: #ff5400;
 }
 
