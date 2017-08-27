@@ -1,3 +1,54 @@
+.menu-left {
+    width: 276px;
+    float: left;
+    position: absolute;
+    margin-top: 18px;
+    background-color: #ffffff;
+    z-index: 0;
+    display: none;
+
+}
+
+.nav-left:hover .menu-left {
+    display: block;
+}
+
+.menu-left a {
+    border-bottom: solid 1px #dddddd;
+    border-right: solid 1px #dddddd;
+    padding: 18.5px 50px;
+    display: block;
+    font-weight: bold;
+}
+
+.menu-left a:hover {
+    color: #70ba28;
+}
+
+.menu-left .a1 {
+    border-left: solid 3px #70ba28;
+}
+
+.menu-left .a2 {
+    border-left: solid 3px #04adf0;
+}
+
+.menu-left .a3 {
+    border-left: solid 3px #efc73a;
+}
+
+.menu-left .a4 {
+    border-left: solid 3px #f6821f;
+}
+
+.menu-left .a5 {
+    border-left: solid 3px #f03442;
+}
+
+.menu-left .a6 {
+    border-left: solid 3px #f034ca;
+}
+
 .detail {
 
     width: 1150px;
