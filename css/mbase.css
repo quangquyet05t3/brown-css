@@ -1,4 +1,5 @@
 @media only screen and (max-width: 480px) {
+    /*********************************Home Page***************************/
 
     .top, .header, .nav, .bg-slide, .product, .adv, .footer, .footer-top {
         clear: both;
@@ -200,6 +201,41 @@
     }
 
      .intro, .help, .fb{
+        width: 100%;
+    }
+
+    /**************************Detail Page****************************/
+    .detail, .img-bg, .detail-content, .menu-right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .img-box, .img-nav {
+        margin: 0 auto;
+    }
+    .detail-content .content {
+        padding: 7px 10px;
+    }
+
+    .put-info {
+        margin-bottom: 20px;
+    }
+
+    .img-box {
+        margin: 5px;
+        width: 350px;
+        height: 280px;
+        background-size: 350px 280px;
+        margin: 0 auto;
+
+    }
+
+    /*****************************For About*************************************/
+    .about-left {
+        width: 100%;
+    }
+
+    .about-main {
         width: 100%;
     }
 }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/mbase.css">
     <link rel="stylesheet" type="text/css" href="css/slide.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -382,4 +383,20 @@
         dots[slideIndex-1].className += " active";
         setTimeout(showSlides, 2000); // Change image every 2 seconds
     }
+
+
+    $(document).ready(function(){
+        var isShow = false;
+        $(".show-m-menu").click(function(){
+            if(!isShow) {
+                $(".d-menu").show();
+                isShow = true;
+            } else {
+                $(".d-menu").hide();
+                isShow = false;
+            }
+
+        });
+    });
+
 </script>
