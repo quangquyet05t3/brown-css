@@ -946,8 +946,12 @@
     border: none;
     border-radius: 4px;
     text-transform: uppercase;
+    margin-left: 5px;
 }
 
+.contact-send-input button:hover {
+    background-color: #ff5400;
+}
 
 .contact-left {
     width: 864px;
@@ -1046,9 +1050,21 @@
     color: #70bc28;
 }
 
-.contact-send-map {
-    width: 437px;
+#contact-send-map {
+    width: 420px;
+    height: 320px;
     float: left;
+}
+
+.map-info-content h4 {
+    color: #000;
+}
+
+.map-info-content-logo {
+    background-image: url("../images/icon/logo.png");
+    width: 100px;
+    height: 50px;
+    background-size: 100px 50px;
 }
 
 
