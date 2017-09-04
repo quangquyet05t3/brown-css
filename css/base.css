@@ -614,7 +614,7 @@
     position: absolute;
     margin-top: 18px;
     background-color: #ffffff;
-    z-index: 0;
+    z-index: 1;
     display: none;
 
 }
@@ -883,8 +883,8 @@
 }
 
 .input-group {
-
-
+    margin-left: 5px;
+    margin-bottom: 16px;
 }
 
 .input-group-addon {
@@ -906,7 +906,7 @@
     background-size: 20px 20px;
 }
 
-.input-group input, textarea {
+.input-group input {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border-top-right-radius: 4px;
@@ -915,13 +915,44 @@
     font-size: 13px;
     color: #555;
     border: 1px solid #ccc;
+    width: 374px;
+    outline: none;
 }
 
-/*****************************Contact Page**********************************/
+.input-group input:focus {
+    border: solid 1px #66afe9;
+}
+
+
+.input-group textarea {
+    width: 420px;
+    height: 56px;
+    padding: 6px;
+    font-size: 13px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.input-group textarea:focus {
+    border: solid 1px #66afe9;
+}
+
+.contact-send-input button {
+    padding: 12px 15px;
+    background-color: #333333;
+    color: #fefefc;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
 
 .contact-left {
-    width: 874px;
+    width: 864px;
     float: left;
+    margin-right: 10px;
 }
 
 .contact-right {
@@ -932,6 +963,87 @@
 .contact-send-input {
     width: 437px;
     float: left;
+}
+
+.contact-head {
+    background-image: url("../images/icon/line.png");
+    background-position: center center;
+    background-repeat: repeat-x;
+}
+
+.contact-head h3 {
+    display: inline-block;
+    background-color: #fff;
+    padding: 5px 20px 5px 5px;
+    color: #71bb26;
+    font-size: 16px;
+}
+
+.contact-logo {
+    width: 200px;
+    height: 100px;
+    background-image: url("../images/icon/logo.png");
+    background-size: 200px 100px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.contact-body {
+    margin-top: 10px;
+}
+
+.contact-detail {
+    float: left;
+    margin-left: 20px;
+}
+.contact-detail h4 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+.contact-detail p {
+    margin-bottom: 16px;
+}
+
+.contact-detail b {
+    font-weight: bold;
+}
+
+.contact-detail i {
+    margin-right: 4px;
+}
+.contact-detail span {
+    color: #70bc28;
+}
+.contact-send {
+    clear: both;
+    border-top: dotted 1px #c3c3c3;
+    padding-top: 20px;
+    padding-left: 4px;
+}
+.contact-send h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #70bc28;
+    margin-bottom: 20px;
+}
+.contact-send p {
+    margin-bottom: 20px;
+}
+
+.policy-guide-content .zalo {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.policy-guide-content .number {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #70bc28;
 }
 
 .contact-send-map {
