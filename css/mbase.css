@@ -261,11 +261,11 @@
         width: 100%;
     }
     .input-group .input-info {
-        width: 80%;
+        width: 300px;
     }
 
     .input-group textarea {
-        width: 100%;
+       width: 345px;
     }
 
     .contact-send-input {
