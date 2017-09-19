@@ -231,11 +231,53 @@
     }
 
     /*****************************For About*************************************/
+    .about {
+        width: 100%;
+    }
     .about-left {
         width: 100%;
     }
 
+    .policy-guide {
+        width: 100%;
+    }
+
     .about-main {
+        width: 100%;
+    }
+
+    /***************************For Contact*********************************/
+
+    .contact {
+        width: 100%;
+    }
+    .contact-logo {
+        display: none;
+    }
+    .contact-left, .contact-right {
+        width: 100%;
+    }
+    .contact-head, .contact-body, .contact-send {
+        width: 100%;
+    }
+    .input-group .input-info {
+        width: 80%;
+    }
+
+    .input-group textarea {
+        width: 100%;
+    }
+
+    .contact-send-input {
+        width: 100%;
+    }
+
+    #contact-send-map {
+        margin: 10px;
+        width: 94%;
+    }
+
+    #map-info {
         width: 100%;
     }
 }
