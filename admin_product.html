@@ -1,0 +1,163 @@
+<!DOCTYPE HTML SYSTEM>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brown Shop</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/mbase.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<div class="bg-top">
+    <div class="top">
+        <div class="top-left">
+            <span><i class="fa fa-tasks" aria-hidden="true"></i> Quản trị website</span>
+        </div>
+        <div class="top-right">
+            <span><i class="fa fa-user" aria-hidden="true"></i> Hi admin </span>
+        </div>
+
+    </div>
+</div>
+<div class="bg-nav">
+    <div class="nav">
+        <div class="nav-left">
+            <div class="list-product">
+                <span class="icon"></span>
+                <h4>Quản lý</h4>
+            </div>
+            <div class="menu-left">
+                <ul>
+                    <li>
+                        <a class="a1">Loại</a>
+                    </li>
+
+                    <li>
+                        <a class="a2">Sản phẩm</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="nav-main">
+            <ul>
+                <li class="active">
+                    <a href="#">Loại</a>
+                </li>
+                <li class="show-menu">
+                    <a href="#">Sản phẩm</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="admin-content">
+    <!-- Trigger the modal with a button -->
+    <button type="button" id="btnOpen" class="add-new" data-toggle="modal" data-target="#myModal">Thêm mới</button>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Thêm mới</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group-admin">
+                        <label>Chọn loại</label>
+                        <select>
+                            <option>Chọn loại</option>
+                            <option value="1">Hàng len</option>
+                            <option value="2">Hàng jean</option>
+                        </select>
+                    </div>
+                    <div class="input-group-admin">
+                        <label>Tên sản phẩm</label>
+                        <input class="input-info" type="text" placeholder="Tên sản phẩm" id="product-name" name="product_name" required>
+                    </div>
+                    <div class="input-group-admin">
+                        <label>Size</label>
+                        <input class="input-info" type="text" placeholder="Size" required>
+                    </div>
+                    <div class="input-group-admin">
+                        <label>Tỷ lệ</label>
+                        <input class="input-info" type="text" placeholder="Tỷ lệ" required>
+                    </div>
+                    <div class="input-group-admin">
+                        <label>Giá</label>
+                        <input class="input-info" type="text" placeholder="Giá" required>
+                    </div>
+                    <div class="input-group-admin">
+                        <label>Ảnh</label>
+                        <div class="admin-image-container">
+                            
+                        </div>
+                    </div>
+                    <div class="input-group-admin">
+                        <label>Mô tả</label>
+                        <textarea>
+
+                        </textarea>
+                    </div>
+                    <div class="input-group-admin">
+                        <label>Kích hoạt</label>
+                        <input class="check-box" type="checkbox" name="vehicle" value="active">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="add-new" data-dismiss="modal">Lưu</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <table id="t01">
+        <tr>
+            <th class="check-box"><input type="checkbox" id="check-all"></th>
+            <th class="db-id">ID</th>
+            <th>Tên loại</th>
+            <th class="action"></th>
+        </tr>
+        <tr>
+            <td class="check-box"><input type="checkbox"></td>
+            <td class="db-id">1</td>
+            <td>Smith</td>
+            <td class="action">
+                <a href="#"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+        <tr>
+            <td class="check-box"><input type="checkbox"></td>
+            <td class="db-id">2</td>
+            <td>Jackson</td>
+            <td class="action">
+                <a href="#"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+        <tr>
+            <td class="check-box"><input type="checkbox"></td>
+            <td class="db-id">3</td>
+            <td>Doe</td>
+            <td class="action">
+                <a href="#"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
