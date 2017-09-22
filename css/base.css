@@ -1078,3 +1078,78 @@
 }
 
 
+/******************************For Admin*********************************/
+.admin-content {
+    border: solid 1px #dddddd;
+    padding: 20px;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+table#t01 {
+    width: 1110px;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color:#fff;
+}
+table#t01 th {
+    background-color: #70bc28;
+    color: white;
+    padding: 10px;
+    border-left: solid 1px #dddddd;
+}
+table#t01 td {
+    padding: 10px;
+}
+
+.check-box {
+    width: 10px;
+}
+.db-id {
+    width: 100px;
+    text-align: center;
+}
+.action {
+    width: 60px;
+}
+
+.add-new {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #70bc28;
+    border: solid 1px #dddddd;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.add-new:hover {
+    background-color: #ff5400;
+}
+
+.modal-header {
+    background-color: #ee6005;
+    color: #ffffff;
+}
+.modal-body {
+    background-color: #fff;
+}
+
+.modal-footer {
+    background-color: #fff;
+}
+
+.input-group-admin .input-info {
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 13px;
+    color: #555;
+    border: 1px solid #ccc;
+    width: 500px;
+    margin-left: 5px;
+    outline: none;
+}
+
+
