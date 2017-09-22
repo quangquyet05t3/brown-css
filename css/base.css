@@ -1165,4 +1165,21 @@ table#t01 td {
     width: 20px;
 }
 
+.admin-image-container {
+    border: solid 1px #cccccc;
+    padding: 2px;
+    display: inline-block;
+}
+
+.image-added, .add-image {
+    display: inline-block;
+    width: 55px;
+    height: 65px;
+    border: solid 1px #cccccc;
+}
+
+.add-image {
+    background-color: #e1e1e1;
+}
+
 
